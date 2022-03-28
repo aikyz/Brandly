@@ -1,0 +1,50 @@
+@import "vars";
+
+.hero {
+  min-height: 544px;
+  padding: 140px 0 89px;
+  text-align: center;
+  background-image: url("../Img/img\ 1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: $light;
+
+  &__title {
+    margin: 0 0 45px;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+  }
+  &__info {
+    display: inline-block;
+    margin: 0 0 45px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 60px;
+    text-transform: uppercase;
+
+    &-secondary {
+      margin: 0 0 45px;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 30px;
+      text-transform: uppercase;
+    }
+  }
+  &__link {
+    &:hover {
+      background-color: $accent;
+      border: $accent;
+      transition: 0.3s;
+    }
+  }
+}
