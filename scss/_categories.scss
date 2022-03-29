@@ -1,0 +1,58 @@
+@import "vars";
+
+.categories {
+  padding: 60px 0;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 419px;
+    background-image: url("../Img/men.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &--women {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 419px;
+      background-image: url("/Img/Woman.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &--accesories {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 419px;
+      background-image: url("/Img/Access.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  &__title {
+    margin: 0;
+  }
+  &__link {
+    font-family: "$secondary-font";
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: $light;
+
+    &:hover {
+      color: $accent;
+      transition: all 0.3s;
+    }
+  }
+}
